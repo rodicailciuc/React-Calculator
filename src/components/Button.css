@@ -1,0 +1,31 @@
+.btn {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5884b3;
+    color: white;
+    cursor: pointer;
+    transition:
+        background-color 0.3s ease,
+        transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-equals {
+    background-color: #f76c6c;
+    color: #fff;
+    border: none;
+}
+
+.btn.equals:hover {
+    background-color: #ff5252;
+}
+.btn-clear {
+    background-color: rgb(115, 113, 179);
+}
